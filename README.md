@@ -2,7 +2,7 @@
 ## YouTube Video Downloader Microservice
 The server will communicate with the client via ZeroMQ. The client's request should provide a YouTube video link and an optional local directory. If a directory is provided by the user, the service will download the video into that directory, otherwise the video will be downloaded into the same directory as video_downloader_service.py. Once the download is complete, the server will send a JSON file back to the client containing the video's information: title, description, length etc. 
 
-## How to Request Data From Server:
+## How to Request Data
 
 ```python
 import zmq
