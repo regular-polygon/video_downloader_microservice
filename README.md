@@ -43,4 +43,10 @@ print(json.dumps(response))
 
 ```
 
+## UML Diagram
+![a8_microservice_uml_diagram](https://user-images.githubusercontent.com/97068431/218238887-c74a1dd9-362a-4593-8897-ca99f68e9ace.png)
+
+
+
+
 
